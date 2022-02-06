@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<title>Desa Wisata Bobung</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url('/G:/Projek/bobung/foto1.jpg');
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">DESA WISATA BOBUNG</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+        <a href="#tentang" class="w3-bar-item w3-button">Tentang</a>
+      <!-- <a href="#about" class="w3-bar-item w3-button">Layanan</a> -->
+      <a href="#work" class="w3-bar-item w3-button">Foto</a>
+      <a href="#contact" class="w3-bar-item w3-button">Kontak</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+   <a href="#tentang" onclick="w3_close()" class="w3-bar-item w3-button">Tentang</a>
+  <!-- <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Layanan</a> -->
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">Foto</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Kontak</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Desa Wisata Bobung</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Desa Wisata Bobung</span><br>
+    <span class="w3-large">Terletak di desa Putat, kecamatan Patuk, Kabupaten Gunung Kidul, provinsi Daerah Istimewa Yogyakarta</span>
+    <p><a href="#contact" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Hubungi Kami</a></p>
+  </div> 
+ 
+</header>
+<!-- Promo Section - "Tentang" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="tentang">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+       
+        <h3 style="text-align:right;">Tentang Desa Wisata Bobung</h3>
+          <p style="text-align:right;">Desa Wisata Bobung terletak di desa Putat, kecamatan Patuk, Kabupaten Gunung Kidul, provinsi Daerah Istimewa Yogyakarta. Letaknya sekitar 10 km menuju arah barat Kota Wonosari atau sekitar 30 km menuju arah timur Kota Yogyakarta. Daerah ini dikenal sebagai sentra kerajinan batik kayu di Yogyakarta."</p>
+          <p style="text-align:right;"><a href="#contact" class="w3-button w3-black">Hubungi Kami</a></p>
+      </div>
+      <div class="w3-col m6">
+        <img class="w3-image w3-round-large" src="foto3.jpeg" alt="Buildings" width="700" height="394">
+      </div>
+    </div>
+  </div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+    <div class="w3-row-padding">
+        <div class="w3-col m6">
+            <img class="w3-image w3-round-large" src="foto2.jpeg" alt="Buildings" width="700" height="394">
+          </div>
+      <div class="w3-col m6">
+        <h3>Asal Mula Kerajinan Batik Kayu</h3>
+        <p>Awalnya Kerajinan batik kayu di Bobung berawal dari kebutuhan topeng kayu untuk lakon-lakon dalam seni tari Topeng Panji yang berkembang di dusun ini sejak sekitar 1960.
+          Tarian Panji itu berkembang yang membuat kebutuhan akan topeng juga bertambah. Tari Panji konon diciptakan Sunan Kalijaga sebagai media dakwah. Tarian ini juga masih dipentaskan untuk menghibur pengunjung yang datang. Bentuk topeng sangat khas karena mirip dengan penggambaran tokoh wayang purwa yang matanya tertarik ke atas dengan hidung lancip, motif batik yang mendasari pewarnaan topeng menambah nilai keindahan topeng.</p>
+        <p><a href="#contact" class="w3-button w3-black">Hubungi Kami</a></p>
+      </div>
+     
+    </div>
+  </div>
+
+  <div class="w3-container w3-light-grey" style="padding:128px 16px" id="tentang2">
+    <div class="w3-row-padding">
+      <div class="w3-col m6">
+       
+        <h3 style="text-align:right;">Desa Wisata Bobung Diresmikan</h3>
+          <p style="text-align:right;">Desa wisata Bobung sendiri diresmikan oleh Pemkab Gunungkidul pada tahun 2001 menjadi desa kerajinan topeng batik kayu. Kerajinan tangan klasik dan tradisional ini sejalan dengan visi dan misi pemerintah yang akan mendukung penuh bidang ekonomi kreatif dan perhutanan sosial termasuk didalamnya kegiatan dan usaha dalam berkesenian dan budaya yang mengoptimalkan potensi lokal."</p>
+          <p style="text-align:right;"><a href="#contact" class="w3-button w3-black">Hubungi Kami</a></p>
+      </div>
+      <div class="w3-col m6">
+        <img class="w3-image w3-round-large" src="foto5.jpeg" alt="Buildings" width="700" height="394">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-container w3-light-grey" style="padding:128px 16px">
+    <div class="w3-row-padding">
+        <div class="w3-col m6">
+            <img class="w3-image w3-round-large" src="foto3.jpeg" alt="Buildings" width="700" height="394">
+          </div>
+      <div class="w3-col m6">
+        <h3>Sejarah Topeng Kayu</h3>
+        <p>Sejarah pembuatan topeng kayu di sini dimulai dari kebiasaan masyarakat Bobung yang setiap musim panen tiba menggelar pentas seni tari yang konon ciptaan Sunan Kalijaga, yaitu tarian topeng pandji. Alkisah cerita pandji berasal dari kata siji (satu atau pertama) dan mapan sing siji (percaya kepada Yang Satu). Jadi bisa dimaklumi mengapa tari topeng panji gerakannya begitu halus, persis seperti hubungan kita dengan Tuhan yang berlangsung amat pribadi.</p>
+        <p><a href="#contact" class="w3-button w3-black">Hubungi Kami</a></p>
+      </div>
+     
+    </div>
+  </div>
+
+  
+</div>
+</div>
+
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="tentang2">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+     
+      <h3 style="text-align:right;">Bentuk Topeng</h3>
+        <p style="text-align:right;">Bentuk topeng yang diproduksi juga memiliki kekhasan tersendiri, yaitu mirip tokoh wayang purwa yang matanya tertarik ke atas dan hidung lancip. Tidak lupa juga dengan ukiran dan pewarnaan topeng kayu yang menambah keindahan topeng. Kerajinan batik kayu desa wisata Bobung berkembang tidak hanya berbentuk topeng saja. Berbagai kerajinan batik kayu seperti nampan, gantungan kunci, wayang dan bentuk-bentuk lainnya juga diproduksi disini."</p>
+        <p style="text-align:right;"><a href="#contact" class="w3-button w3-black">Hubungi Kami</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="foto1.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">Foto</h3>
+  <p class="w3-center w3-large">Foto tentang Desa Wisata Bobung</p>
+
+  <div class="w3-center w3-row-padding " style="margin-top:64px">
+    <div class="w3-center w3-col l3 m6">
+      <img src="/G:/Projek/bobung/foto1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Desa Wisata Bobung">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/G:/Projek/bobung/foto2.JPEG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Desa Wisata Bobung">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/G:/Projek/bobung/foto3.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Desa Wisata Bobung">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="/G:/Projek/bobung/foto4.jpeg" style="width:117%" onclick="onClick(this)" class="w3-hover-opacity" alt="Desa Wisata Bobung">
+    </div>
+    
+  </div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">Kontak</h3>
+  <p class="w3-center w3-large">Silahkan hubungi kami jika Anda ingin berkunjung</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Bobung, Putat, Patuk, Daerah Istimewa Yogyakarta</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Ari Iswanto : 0838-4004-8388</p>
+    
+    <br>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
